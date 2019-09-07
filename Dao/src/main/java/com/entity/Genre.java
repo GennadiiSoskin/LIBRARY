@@ -11,10 +11,10 @@ import java.util.List;
 @Data
 @Entity
 @Table(name = "genre")
-public class Genre extends BaseEntity{
+public class Genre extends BaseEntity {
 
     @Column
-   private String name;
+    private String name;
 
     @OneToMany(mappedBy = "genre")
     private List<Book> bookList;

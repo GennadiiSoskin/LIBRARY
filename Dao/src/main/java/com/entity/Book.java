@@ -1,12 +1,13 @@
 package com.entity;
 
 import lombok.Data;
+
 import javax.persistence.*;
 
 @Data
 @Entity
 @Table(name = "book")
-public class Book extends BaseEntity{
+public class Book extends BaseEntity {
 
     @Column
     private String name;
@@ -15,10 +16,10 @@ public class Book extends BaseEntity{
     private int volume;
 
     @ManyToOne
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "genre")
     private Genre genre;
 
     @ManyToOne
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "library")
     private Library library;
 }

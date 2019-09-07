@@ -12,7 +12,7 @@ import java.util.List;
 @Data
 @Entity
 @Table(name = "library")
-public class Library extends BaseEntity{
+public class Library extends BaseEntity {
 
     @Column
     private String name;
