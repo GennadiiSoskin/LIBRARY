@@ -6,7 +6,47 @@
 
     <groupId>Library</groupId>
     <artifactId>Library</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-
-
+    <modules>
+        <module>Dao</module>
+    </modules>
+    <properties>
+        <spring.version>5.1.2.RELEASE</spring.version>
+        <aspectj.version>RELEASE</aspectj.version>
+        <jstl.version>1.2</jstl.version>
+        <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
+        <lombok.version>1.18.8</lombok.version>
+        <validation-api.version>2.0.0.Final</validation-api.version>
+        <hibernate-validator.version>6.0.2.Final</hibernate-validator.version>
+        <mockito-all.version>1.10.19</mockito-all.version>
+        <junit.version>4.12</junit.version>
+        <maven-surefire-report-plugin.version>3.0.0-M3</maven-surefire-report-plugin.version>
+        <jacoco-maven-plugin.version>0.7.7.201606060606</jacoco-maven-plugin.version>
+        <log4j.version>1.2.17</log4j.version>
+        <jackson-databind.version>2.9.8</jackson-databind.version>
+        <hamcrest-all.version>1.3</hamcrest-all.version>
+        <hibernate-core.version>5.4.2.Final</hibernate-core.version>
+        <h2.version>1.4.197</h2.version>
+        <mysql-connector-java.version>8.0.11</mysql-connector-java.version>
+        <json-path.version>2.2.0</json-path.version>
+        <spring-data-jpa.version>2.1.6.RELEASE</spring-data-jpa.version>
+    </properties>
+<dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${lombok.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>${spring.version}</version>
+    </dependency>
+</dependencies>
 </project>

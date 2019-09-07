@@ -17,6 +17,9 @@ CREATE TABLE `role`
     `name`   VARCHAR(255) NOT NULL
 );
 
+DROP TABLE IF EXISTS `passport_data`;
+
+
 DROP TABLE IF EXISTS `library`;
 CREATE TABLE `library`
 (
@@ -36,6 +39,7 @@ CREATE TABLE `book`
     `library`  BIGINT,
     CONSTRAINT `fk_book_to_genre` FOREIGN KEY (`genre`) REFERENCES `genre` (`id`),
     CONSTRAINT `fk_book_to_library` FOREIGN KEY (`library`) REFERENCES `library` (`id`)
+
 );
 
 DROP TABLE IF EXISTS `user`;
@@ -47,7 +51,16 @@ CREATE TABLE `user`
     `street`   VARCHAR(255) NOT NULL,
     `houseNomber`   VARCHAR(255) NOT NULL,
     `role`  BIGINT,
+
     CONSTRAINT `fk_user_to_role` FOREIGN KEY (`role`) REFERENCES `role` (`id`)
+);
+
+DROP TABLE IF EXISTS `passport_data`;
+CREATE TABLE `passport_data`
+(
+    `id`     BIGINT       NOT NULL PRIMARY KEY,
+    `data`   VARCHAR(255) NOT NULL,
+    CONSTRAINT `fk_passport_data_to_user` FOREIGN KEY (`id`) REFERENCES `user` (`id`)
 );
 
 DROP TABLE IF EXISTS `user_book`;
@@ -58,6 +71,15 @@ CREATE TABLE `user_book`
     `fk_book_id`  BIGINT NOT NULL,
     CONSTRAINT `fk_user_book_to_user` FOREIGN KEY (`fk_user_id`) REFERENCES `user` (`id`),
     CONSTRAINT `fk_user_book_to_book` FOREIGN KEY (`fk_book_id`) REFERENCES `book` (`id`)
+);
+DROP TABLE IF EXISTS `user_request`;
+CREATE TABLE `user_request`
+(
+    `id`            BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `fk_user_id` BIGINT NOT NULL,
+    `fk_book_id`  BIGINT NOT NULL,
+    CONSTRAINT `fk_user_request_to_user` FOREIGN KEY (`fk_user_id`) REFERENCES `user` (`id`),
+    CONSTRAINT `fk_user_request_to_book` FOREIGN KEY (`fk_book_id`) REFERENCES `book` (`id`)
 );
 
 -- test data --
@@ -124,3 +146,7 @@ VALUES (2, 2, 7);
 INSERT INTO user_book (id, fk_user_id, fk_book_id)
 VALUES (3, 2, 8);
 
+INSERT INTO passport_data (id, data)
+VALUES (1, '№12345678 РИ');
+INSERT INTO passport_data (id, data)
+VALUES (2, '№12342134 ВА');
