@@ -17,6 +17,6 @@ public class Library extends BaseEntity {
     @Column
     private String name;
 
-    @OneToMany(mappedBy = "library")
-    private List<Book> bookList;
+//    @OneToMany(mappedBy = "library")
+//    private List<Book> bookList;
 }

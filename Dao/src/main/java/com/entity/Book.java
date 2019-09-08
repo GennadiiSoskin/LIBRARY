@@ -13,13 +13,14 @@ public class Book extends BaseEntity {
     private String name;
 
     @Column
-    private int volume;
+    private long volume;
 
-    @ManyToOne
-    @JoinColumn(name = "genre")
-    private Genre genre;
+//    @ManyToOne
+//    @JoinColumn(name = "genre")
+    @Column
+    private long genre;
 
-    @ManyToOne
-    @JoinColumn(name = "library")
-    private Library library;
+//    @ManyToOne
+//    @JoinColumn(name = "library")
+//    private Library library;
 }

@@ -23,6 +23,6 @@ public class User extends BaseEntity {
 //    )
 //    private List<Book> bookList;
     @ManyToOne
-    @JoinColumn(name = "user")
+    @JoinColumn(name = "role")
     private Role role;
 }

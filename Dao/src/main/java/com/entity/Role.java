@@ -17,5 +17,5 @@ import javax.persistence.Table;
 public class Role extends BaseEntity {
 
     @Column
-    private String value;
+    private String name;
 }

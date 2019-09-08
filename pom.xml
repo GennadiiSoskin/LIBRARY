@@ -12,6 +12,7 @@
         <module>Dao</module>
         <module>servise</module>
     </modules>
+
     <properties>
         <spring.version>5.1.2.RELEASE</spring.version>
         <aspectj.version>RELEASE</aspectj.version>
@@ -33,6 +34,7 @@
         <json-path.version>2.2.0</json-path.version>
         <spring-data-jpa.version>2.1.6.RELEASE</spring-data-jpa.version>
     </properties>
+    
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>

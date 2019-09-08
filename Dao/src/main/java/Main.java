@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         AbstractApplicationContext AAC = new AnnotationConfigApplicationContext(DaoConfig.class);
         BookRepository Bean = (BookRepository) AAC.getBean(BookRepository.class);
-        Bean.getAll();
+        Bean.getAllBookByGenre(1);
 
 
     }

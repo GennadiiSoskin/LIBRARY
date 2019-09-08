@@ -35,8 +35,8 @@ CREATE TABLE `book`
     `id`     BIGINT       NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `name`   VARCHAR(255) NOT NULL,
     `volume` BIGINT,
-    `genre`  BIGINT,
-    `library`  BIGINT,
+    `genre_id`  BIGINT,
+    `library_id`  BIGINT,
     CONSTRAINT `fk_book_to_genre` FOREIGN KEY (`genre`) REFERENCES `genre` (`id`),
     CONSTRAINT `fk_book_to_library` FOREIGN KEY (`library`) REFERENCES `library` (`id`)
 

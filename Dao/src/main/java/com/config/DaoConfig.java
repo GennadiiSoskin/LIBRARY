@@ -49,7 +49,7 @@ public class DaoConfig {
         hibernateProperties.setProperty(
                 "hibernate.hbm2ddl.auto", "validate");
         hibernateProperties.setProperty(
-                "hibernate.dialect", "org.hibernate.dialect.MySQL8Dialect");
+                "hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
         hibernateProperties.setProperty("hibernate.show_sql", "true");
         hibernateProperties.setProperty("hibernate.format_sql", "true");
         hibernateProperties.setProperty("hibernate.cache.region.factory_class", "org.hibernate.cache.ehcache.EhCacheRegionFactory");
