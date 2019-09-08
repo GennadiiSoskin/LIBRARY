@@ -14,5 +14,5 @@ public interface BookRepository {
 
     List<Book> getAll();
 
-    List<Genre> getAllBookByGenre(long id);
+   void getAllBookByGenre(long id);
 }

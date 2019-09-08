@@ -4,16 +4,23 @@ package com.entity;
 import lombok.Data;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
 import java.util.List;
 
 @Data
 @Entity
 @Table(name = "user")
 public class User extends BaseEntity {
+
+    @NotEmpty
     @Column
     private String name;
+
+    @NotEmpty
     @Column
     private String password;
+
+    @NotEmpty
     @Embedded
     private Adress adress;
 //    @ManyToMany

@@ -2,6 +2,7 @@ package com.repository.impl;
 
 import com.entity.Book;
 import com.entity.Genre;
+import com.entity.Library;
 import com.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.hibernate.SessionFactory;
@@ -20,22 +21,22 @@ public class BookRepositoryImpl implements BookRepository {
     public List<Book> getAll() {
         String name = "Маленький принц";
          List list = sessionFactory.getCurrentSession()
-                .createQuery("from " + Book.class.getSimpleName() , Book.class)
+                .createQuery("from " + Library.class.getSimpleName() , Library.class)
                 .list();
         System.out.print(list.toString());
          return list;
     }
 //TODO genrerepositoryimpl
 @Override
-public List<Genre> getAllBookByGenre(long id) {
+public void getAllBookByGenre(long id) {
     String name = "Маленький принц";
-    List list = sessionFactory.getCurrentSession()
-            .createQuery("from " + Genre.class.getSimpleName() + " g where g.id = 1", Genre.class)
+    List<Library> list = sessionFactory.getCurrentSession()
+            .createQuery("from " + Library.class.getSimpleName(), Library.class)
             .list();
-    System.out.print(list.toString());
-    return list;
-
-}
+    Library genre = list.get(1);
+    List<Book> books = genre.getBookList();
+    System.out.println(books.toString());
+    }
 
     @Override
     public void saveBook(Book book) {
