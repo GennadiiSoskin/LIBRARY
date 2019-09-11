@@ -1,0 +1,542 @@
+2019-08-16 16:16:32,233 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-16 16:16:54,637 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-16 16:18:08,219 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-16 16:19:06,895 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-16 19:43:09,988 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-16 19:43:46,409 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-16 19:56:03,865 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-16 20:01:58,019 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-16 20:22:55,796 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-16 20:23:42,100 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-16 20:31:21,154 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-16 20:31:22,249 INFO  - Init EmployeeServiceImpl
+2019-08-17 11:57:20,346 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 11:57:22,123 INFO  - Init EmployeeServiceImpl
+2019-08-17 11:57:22,483 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 11:57:22,930 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 11:57:23,225 WARN  - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2019-08-17 11:57:23,228 WARN  - HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2019-08-17 11:57:23,275 INFO  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-17 12:01:09,174 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 12:01:09,439 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 12:01:09,591 WARN  - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2019-08-17 12:01:09,594 WARN  - HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2019-08-17 12:01:09,610 INFO  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-17 12:01:10,009 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 12:03:40,082 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 12:03:40,386 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 12:03:40,547 WARN  - HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+2019-08-17 12:03:40,548 WARN  - HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+2019-08-17 12:03:40,563 INFO  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-17 12:03:41,045 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 12:04:20,217 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 12:04:20,434 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 12:04:20,952 INFO  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-17 12:04:21,787 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 12:04:22,608 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 12:04:52,349 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 12:05:25,388 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 12:05:25,595 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 12:05:26,083 INFO  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-17 12:05:26,494 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 12:05:27,049 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 12:09:29,751 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 12:09:37,259 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 12:09:37,472 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 12:09:37,951 INFO  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-17 12:09:38,472 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 12:09:39,102 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 12:10:25,312 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 12:10:48,612 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 12:10:48,799 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 12:10:49,223 INFO  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-17 12:10:49,690 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 12:10:50,285 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 12:10:50,545 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 12:11:33,061 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 12:11:33,285 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 12:11:33,838 INFO  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-17 12:11:34,259 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 12:11:34,896 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 12:11:35,196 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 12:18:52,771 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 12:18:53,020 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 12:18:53,810 WARN  - HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (Unknown database 'company')
+2019-08-17 12:18:53,829 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-17 12:18:54,175 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 12:18:54,854 WARN  - SQL Error: 0, SQLState: null
+2019-08-17 12:18:54,854 ERROR - Cannot create PoolableConnectionFactory (Unknown database 'company')
+2019-08-17 12:20:52,747 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 12:20:53,012 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 12:20:53,926 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-17 12:20:54,289 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 12:20:55,040 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 12:20:55,450 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 12:21:22,771 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 12:21:23,019 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 12:21:23,921 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-17 12:21:24,303 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 12:21:25,024 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 12:26:32,175 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 13:29:06,983 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 13:29:08,790 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 13:29:09,102 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 13:29:09,991 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-17 13:29:11,280 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 13:29:11,895 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-17 13:29:12,078 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 13:29:12,096 INFO  - Init EmployeeServiceImpl
+2019-08-17 13:29:12,345 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 13:29:12,346 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 13:30:01,863 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 13:30:03,794 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 13:30:04,077 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 13:30:05,013 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-17 13:30:06,324 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 13:30:06,945 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-17 13:30:07,167 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 13:30:07,192 INFO  - Init EmployeeServiceImpl
+2019-08-17 13:30:07,492 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 13:30:07,555 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 13:32:08,298 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-17 13:32:10,006 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-17 13:32:10,327 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-17 13:32:11,372 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-17 13:32:12,638 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 13:32:13,319 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-17 13:32:13,568 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-17 13:32:13,578 INFO  - Init EmployeeServiceImpl
+2019-08-17 13:32:13,860 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-17 13:32:13,880 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-18 19:54:19,008 INFO  - HHH000412: Hibernate Core {5.2.10.Final}
+2019-08-18 19:54:19,012 INFO  - HHH000206: hibernate.properties not found
+2019-08-18 19:54:19,068 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-08-18 19:54:19,899 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-08-18 19:54:20,349 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 19:54:20,889 INFO  - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5c887052'
+2019-08-18 19:59:15,140 INFO  - HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2019-08-18 20:02:44,959 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 20:02:45,160 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 20:02:45,798 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 20:02:46,086 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 20:02:46,680 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 20:02:46,990 INFO  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-18 23:15:17,850 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:15:18,189 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:15:19,012 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:15:19,544 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:15:20,292 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 23:15:20,677 WARN  - SQL Error: 1048, SQLState: 23000
+2019-08-18 23:15:20,677 ERROR - Column 'employee_id' cannot be null
+2019-08-18 23:17:14,323 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:17:14,624 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:17:15,560 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:17:16,028 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:17:16,804 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 23:18:14,620 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:18:14,790 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:18:15,618 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:18:16,173 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:18:17,152 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 23:20:03,045 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:20:03,335 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:20:04,218 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:20:04,654 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:20:05,513 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 23:23:13,203 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:23:13,458 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:23:14,321 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:23:14,886 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:23:15,598 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 23:23:43,808 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:23:43,993 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:23:44,606 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:23:44,883 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:23:45,391 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 23:28:03,597 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:28:03,852 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:28:04,700 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:28:05,157 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:28:05,853 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 23:33:19,438 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:33:19,734 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:33:20,560 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:33:21,047 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:33:21,695 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 23:34:31,229 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:34:31,413 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:34:32,117 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:34:32,539 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:34:33,176 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 23:35:57,738 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:35:58,022 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:35:58,581 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:35:58,834 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:35:59,418 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 23:36:21,217 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:36:21,484 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:36:22,066 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:36:22,366 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:36:22,887 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-18 23:36:44,733 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-18 23:36:45,009 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-18 23:36:45,583 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-18 23:36:45,906 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-18 23:36:46,430 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:37:28,440 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-21 08:37:28,658 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-21 08:37:29,429 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:37:29,822 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-21 08:37:30,529 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:37:48,191 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-21 08:37:48,451 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-21 08:37:49,043 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:37:49,388 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-21 08:37:49,923 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:38:07,252 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-21 08:38:07,455 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-21 08:38:08,110 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:38:08,457 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-21 08:38:09,004 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:39:06,679 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-21 08:39:06,956 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-21 08:39:07,657 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:39:07,995 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-21 08:39:08,578 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:39:46,083 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-21 08:39:46,321 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-21 08:39:46,970 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:39:47,299 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-21 08:39:47,846 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:40:07,520 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-21 08:40:07,757 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-21 08:40:08,384 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:40:08,683 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-21 08:40:09,261 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:40:38,376 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-21 08:40:38,617 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-21 08:40:39,247 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:40:39,565 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-21 08:40:40,104 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:41:03,716 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-21 08:41:05,376 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-21 08:41:05,631 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-21 08:41:06,664 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:41:07,799 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:41:08,772 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:41:08,861 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:41:08,873 INFO  - Init EmployeeServiceImpl
+2019-08-21 08:41:36,427 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-21 08:41:36,580 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-21 08:41:37,157 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:41:37,472 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-21 08:41:38,022 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:41:38,776 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:41:38,847 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-21 08:41:38,851 INFO  - Init EmployeeServiceImpl
+2019-08-21 08:42:41,949 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-21 08:42:43,610 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-21 08:42:43,853 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-21 08:42:44,842 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-21 08:42:46,070 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-23 20:24:48,811 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-23 20:24:49,030 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-23 20:24:49,678 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-23 20:24:50,005 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-23 20:24:50,446 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-23 20:33:47,129 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-23 20:33:47,401 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-23 20:33:47,969 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-23 20:33:48,260 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-23 20:33:48,691 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-23 20:33:48,959 WARN  - SQL Error: 1146, SQLState: 42S02
+2019-08-23 20:33:48,960 ERROR - Table 'companies.company' doesn't exist
+2019-08-23 20:33:48,961 INFO  - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-08-23 20:34:42,108 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-23 20:34:42,310 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-23 20:34:42,918 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-23 20:34:43,209 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-23 20:34:43,687 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-23 20:34:43,963 WARN  - SQL Error: 1146, SQLState: 42S02
+2019-08-23 20:34:43,963 ERROR - Table 'companies.company' doesn't exist
+2019-08-23 20:34:43,964 INFO  - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-08-23 20:37:51,578 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-23 20:37:51,816 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-23 20:37:52,444 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-23 20:37:52,749 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-23 20:37:53,171 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-23 20:37:53,421 WARN  - SQL Error: 1146, SQLState: 42S02
+2019-08-23 20:37:53,421 ERROR - Table 'companies.company' doesn't exist
+2019-08-23 20:37:53,422 INFO  - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-08-23 20:57:44,335 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-23 20:57:44,588 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-23 20:57:45,397 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-23 20:57:45,821 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-23 20:57:46,384 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-23 21:02:31,769 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-23 21:02:31,995 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-23 21:02:32,615 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-23 21:02:32,964 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-23 21:02:33,414 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-23 21:04:31,498 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-23 21:04:31,677 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-23 21:04:32,400 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-23 21:04:32,842 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-23 21:04:33,433 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-23 21:07:34,160 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-23 21:07:34,354 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-23 21:07:35,031 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-23 21:07:35,338 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-23 21:07:35,787 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 12:59:23,587 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 12:59:23,825 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 12:59:24,665 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 12:59:25,263 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 12:59:25,939 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 12:59:47,104 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 12:59:47,276 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 12:59:48,026 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 12:59:48,481 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 12:59:49,055 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:01:08,972 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:01:09,162 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:01:09,912 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:01:10,423 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:01:11,026 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:02:12,900 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:02:13,139 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:02:13,976 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:02:14,454 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:02:15,020 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:03:14,012 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:03:14,213 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:03:15,092 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:03:15,548 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:03:16,159 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:04:19,250 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:04:19,445 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:04:20,187 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:04:20,663 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:04:21,222 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:04:54,627 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:04:54,850 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:04:55,670 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:04:56,166 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:04:56,740 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:05:59,802 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:05:59,998 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:06:00,726 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:06:01,219 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:06:01,812 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:07:03,372 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:07:03,566 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:07:04,340 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:07:04,808 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:07:05,440 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:09:18,594 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:09:18,787 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:09:19,547 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:09:20,027 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:09:20,619 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:12:46,110 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:12:46,309 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:12:47,179 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:12:47,812 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:12:48,458 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:13:42,775 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:13:43,005 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:13:43,860 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:13:44,382 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:13:45,075 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:14:54,753 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:14:54,934 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:14:55,791 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:14:56,485 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:14:57,223 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:15:29,502 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:15:29,771 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:15:30,619 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:15:31,154 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:15:31,808 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:16:25,984 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:16:26,220 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:16:27,110 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:16:27,653 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:16:28,326 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:16:45,821 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:16:46,075 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:16:47,058 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:16:47,544 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:16:48,227 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:18:01,311 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:18:01,552 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:18:02,440 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:18:02,976 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:18:03,714 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 13:21:46,783 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 13:21:47,007 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 13:21:47,864 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 13:21:48,394 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 13:21:49,077 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:00:56,405 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:00:56,594 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:00:56,621 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:00:57,467 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:00:58,195 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:00:58,304 WARN  - HHH90001006: Missing cache[my-cache] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+2019-08-25 15:00:59,107 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:02:23,274 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:02:23,490 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:02:23,511 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:02:24,382 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:02:25,130 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:02:25,262 WARN  - HHH90001006: Missing cache[my-cache] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+2019-08-25 15:02:25,978 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:02:33,753 WARN  - SQL Error: 1054, SQLState: 42S22
+2019-08-25 15:02:33,754 ERROR - Unknown column 'role0_.value' in 'field list'
+2019-08-25 15:02:33,755 INFO  - HHH000327: Error performing load command : org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-08-25 15:03:13,215 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:03:13,540 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:03:13,564 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:03:14,697 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:03:15,492 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:03:15,569 WARN  - HHH90001006: Missing cache[my-cache] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+2019-08-25 15:03:16,278 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:03:28,157 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:03:28,381 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:03:28,400 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:03:29,219 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:03:29,854 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:03:29,928 WARN  - HHH90001006: Missing cache[my-cache] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+2019-08-25 15:03:30,664 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:04:55,244 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:04:55,415 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:04:55,441 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:04:56,313 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:04:56,977 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:04:57,059 WARN  - HHH90001006: Missing cache[my-cache] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+2019-08-25 15:04:57,699 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:05:27,450 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:05:27,627 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:05:27,643 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:05:28,449 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:05:29,199 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:05:29,266 WARN  - HHH90001006: Missing cache[my-cache] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+2019-08-25 15:05:29,997 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:10:27,195 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:10:27,384 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:10:27,404 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:10:28,221 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:10:28,877 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:10:28,948 WARN  - HHH90001006: Missing cache[my-cache] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+2019-08-25 15:10:29,750 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:15:38,493 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:15:38,719 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:15:38,742 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:15:39,597 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:15:40,282 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:15:40,353 WARN  - HHH90001006: Missing cache[my-cache] was created on-the-fly. The created cache will use a provider-specific default configuration: make sure you defined one. You can disable this warning by setting 'hibernate.cache.ehcache.missing_cache_strategy' to 'create'.
+2019-08-25 15:15:41,123 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:16:25,601 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:16:25,795 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:16:25,814 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:16:26,687 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:16:27,459 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:16:28,124 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:18:17,037 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:18:17,282 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:18:17,304 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:18:18,248 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:18:19,119 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:18:19,827 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:19:47,709 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:19:47,903 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:19:47,928 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:19:48,746 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:19:49,603 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:19:49,702 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-25 15:19:50,449 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:21:49,244 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:21:49,476 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:21:49,504 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:21:50,354 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:21:51,101 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:21:51,224 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-25 15:21:51,914 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:23:39,614 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:23:39,863 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:23:39,892 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:23:40,792 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:23:41,565 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:23:41,690 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-25 15:23:42,355 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:26:36,173 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:26:36,377 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:26:36,400 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:26:37,223 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:26:38,000 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:26:38,097 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-25 15:26:38,700 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:30:13,225 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:30:13,416 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:30:13,432 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:30:14,283 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:30:15,026 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:30:15,114 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-25 15:30:15,742 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:32:29,249 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:32:29,421 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:32:29,437 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:32:30,283 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:32:30,975 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:32:31,066 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-25 15:32:31,675 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:33:28,455 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:33:28,643 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:33:28,660 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:33:29,439 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:33:30,222 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:33:30,310 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-25 15:33:30,874 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:34:12,561 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:34:12,828 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:34:12,848 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:34:13,639 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:34:14,438 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:34:14,518 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-25 15:34:15,160 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-25 15:34:43,194 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-25 15:34:43,367 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-25 15:34:43,387 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-25 15:34:44,127 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-25 15:34:44,833 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-25 15:34:44,911 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-25 15:34:45,535 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-28 21:13:37,724 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-28 21:13:39,721 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-28 21:13:40,227 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-28 21:13:40,296 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-28 21:13:41,274 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-28 21:13:42,151 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-28 21:13:42,998 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-28 21:14:17,335 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-28 21:14:17,517 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-28 21:14:17,538 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-28 21:14:18,177 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-28 21:14:18,787 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-28 21:14:18,854 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-28 21:14:19,351 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-28 21:14:51,471 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-28 21:14:53,052 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-28 21:14:53,292 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-28 21:14:53,341 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-28 21:14:54,345 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-28 21:14:55,143 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-28 21:14:55,936 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-08-28 21:17:18,522 INFO  - HV000001: Hibernate Validator 6.0.2.Final
+2019-08-28 21:17:20,164 INFO  - HHH000412: Hibernate Core {5.4.2.Final}
+2019-08-28 21:17:20,438 WARN  - HHH020100: The Ehcache second-level cache provider for Hibernate is deprecated.  See https://hibernate.atlassian.net/browse/HHH-12441 for details.
+2019-08-28 21:17:20,479 INFO  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-08-28 21:17:21,400 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-28 21:17:22,222 WARN  - HHH90001003: Read-only caching was requested for mutable entity [NavigableRole[com.teachmeskills.dao.entity.Role]]
+2019-08-28 21:17:23,182 INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]

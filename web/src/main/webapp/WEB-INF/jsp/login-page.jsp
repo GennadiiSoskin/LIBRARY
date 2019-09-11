@@ -8,7 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Hello page</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background: #deb887 url(../img/wifi_PNG62230.png);
+
+        }
+    </style>
 </head>
 <body>
 

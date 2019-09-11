@@ -1,4 +1,5 @@
 package com.repository.impl;
 
-public class RoleRepositoryImpl {
+public class RoleRepositoryImpl  {
+
 }

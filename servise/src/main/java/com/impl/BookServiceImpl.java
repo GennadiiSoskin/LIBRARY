@@ -5,7 +5,6 @@ import com.entity.Book;
 import com.entity.Library;
 import com.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.log4j.Log4j;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
