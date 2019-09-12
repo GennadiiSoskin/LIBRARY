@@ -1,23 +1,71 @@
-
+<!--<%@ page contentType="text/html;charset=UTF-8" language="java" %>-->
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Hello page</title>
-    <style>
-        body{
-            background-size: cover;
-            background: #deb887 url(img/book.jpg) center center;
-            width: 300px;
-            height: 300px;
+    <meta charset="UTF-8">
+    <title>Registration page</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background: #deb887;
+            /*url(../img/wifi_PNG62230.png);*/
+        }
+
+        input {
+
+            background: honeydew;
+        }
+
+        input:focus {
+            background: beige;
+        }
+
+        label {
+            float: left;
+
+        }
+
+        form {
+            width: 350px;
+        }
+
+        .right {
+            clear: both;
+            text-align: right;
+        }
+        .input-button{
+            float: right;
         }
     </style>
 </head>
 <body>
 <center><h1>Добро пожаловать!</h1></center>
 <center><p>У нас вы можете забронировать книги и забрать их влюбое удобное для вас время</p></center>
-<center><p>Для продолжения работы вам необходимо
-    <a href="${pageContext.request.contextPath}/registration-page">зарегистрироваться</a> или
-    <a href="${pageContext.request.contextPath}/login-page">войти</a></p></center>
+<center>
+<form method="post" action="/registration-page">
+    <fieldset>
+        <legend>РЕГИСТРАЦИЯ</legend>
+        <p class="right"><label for="name">Логин </label>
+            <input type="text" id="name" required placeholder="Заполните это поле"></p>
+        <p class="right"><label for="password">Пароль </label>
+            <input type="password" id="password" maxlength="4" minlength="4" required placeholder="Заполните это поле"></p>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Информация о пользователе</legend>
+        <p class="right"><label for="passport">Номер паспорта </label>
+            <input type="text" id="passport" required placeholder="Заполните это поле"></p>
+        <fieldset>
+            <legend>Адрес</legend>
+            <p class="right"><label for="street">Улица </label>
+                <input type="text" id="street" required placeholder="Заполните это поле"></p>
+            <p class="right"><label for="housenomber">Номер дома </label>
+                <input type="text" id="housenomber" required placeholder="Заполните это поле"></p>
+        </fieldset>
+    </fieldset>
+<input class="input-button" type="submit" value=" Зарегистрироваться ">
+</form>
+</center>
 
 </body>
 </html>

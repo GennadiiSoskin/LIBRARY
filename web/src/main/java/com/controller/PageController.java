@@ -34,15 +34,15 @@ public class PageController {
         return "registration-page";
     }
 
-//    @PostMapping("/registration-page")
-//    //TODO check passwords
-//    public String registration(User user, String confirmPassword) {
+    @PostMapping("/registration-page")
+    //TODO check passwords
+    public String registration(User user, String confirmPassword) {
 //        Role userRole = roleRepository.findByName("USER");
 //        user.setPassword(passwordEncoder.encode(user.getPassword()));
 //        user.setRole(userRole);
 //        userRepository.save(user);
-//        return "redirect:login-page";
-//    }
+        return "redirect:login-page";
+    }
 
     @GetMapping("/start-page")
     public String homePage() {
