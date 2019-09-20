@@ -67,13 +67,7 @@ private final CustomUserService customUserService;
         return "user-page";
     }
 
-    @PostMapping("/login-page")
-    //TODO check passwords
-    public String login(@ModelAttribute("user") User user) {
 
-
-        return "redirect:user-page";
-    }
 }
 
 
