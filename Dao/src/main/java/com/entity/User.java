@@ -2,16 +2,19 @@ package com.entity;
 
 
 import lombok.Data;
-
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
-import java.util.List;
 
 @Data
 @Entity
 @Table(name = "user")
-public class User extends BaseEntity {
 
+public class User
+//        extends BaseEntity
+{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
     @NotEmpty
     @Column
     private String name;
@@ -20,16 +23,13 @@ public class User extends BaseEntity {
     @Column
     private String password;
 
-    @NotEmpty
+//    @NotEmpty
     @Embedded
-    private Adress adress;
-//    @ManyToMany
-//    @JoinTable(name = "user_request",
-//            joinColumns = @JoinColumn(name = "fk_user_id"),
-//            inverseJoinColumns = @JoinColumn(name = "fk_book_id")
-//    )
-//    private List<Book> bookList;
+    private Address address;
+
     @ManyToOne
     @JoinColumn(name = "role")
     private Role role;
+
+
 }

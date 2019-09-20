@@ -9,11 +9,11 @@ import javax.validation.constraints.NotEmpty;
 
 @Embeddable
 @Data
-public class Adress {
+public class Address {
     @Column
     @NotEmpty
     private String street;
     @Column
     @NotEmpty
-    private String houseNomber;
+    private String houseNumber;
 }

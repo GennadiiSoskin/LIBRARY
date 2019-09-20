@@ -6,7 +6,7 @@
     <style type="text/css">
         body {
             margin: 0;
-            background: #deb887 url(WEB-INF/img/wifi_PNG62230.png);
+            background: #deb887 url(../img/book.jpg);
         }
     </style>
 </head>

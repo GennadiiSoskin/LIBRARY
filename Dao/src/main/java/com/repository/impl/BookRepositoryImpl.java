@@ -3,6 +3,7 @@ package com.repository.impl;
 import com.entity.Book;
 import com.entity.Genre;
 import com.entity.Library;
+import com.entity.User;
 import com.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.hibernate.SessionFactory;
@@ -36,6 +37,12 @@ public void getAllBookByGenre(long id) {
     Library genre = list.get(1);
     List<Book> books = genre.getBookList();
     System.out.println(books.toString());
+    }
+
+    @Override
+    public void saveUser(User user) {
+        sessionFactory.getCurrentSession()
+                .save(user);
     }
 
     @Override

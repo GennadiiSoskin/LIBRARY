@@ -1,7 +1,8 @@
 package com.repository;
 
 import com.entity.Book;
-import com.entity.Genre;
+import com.entity.User;
+
 
 import java.util.List;
 
@@ -15,4 +16,6 @@ public interface BookRepository {
     List<Book> getAll();
 
    void getAllBookByGenre(long id);
+
+   void saveUser(User user);
 }

@@ -1,38 +1,64 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Registration page</title>
     <style type="text/css">
         body {
             margin: 0;
-            background: #deb887 url(../img/wifi_PNG62230.png);
-        }
-        input {
             background: #deb887;
+        }
+
+        label {
+            float: left;
+        }
+
+        .fieldset {
+            width: 350px;
+        }
+
+        .right {
+            clear: both;
+            text-align: right;
+        }
+
+        .input {
+            float: right;
+            background: burlywood;
+            required: "true";
         }
     </style>
 </head>
 <body>
 <center><h1>Добро пожаловать!</h1></center>
 <center><p>У нас вы можете забронировать книги и забрать их влюбое удобное для вас время</p></center>
-<form method="post" action="/registration-page" >
-    <fieldset>
+<center>
+    <fieldset class="fieldset">
         <legend>РЕГИСТРАЦИЯ</legend>
-        <label>Логин<input type="text" required placeholder="Заполните это поле"></label>
-        <label>Пароль<input type="text" required placeholder="Заполните это поле"></label>
+
+        <form:form method="POST" modelAttribute="user" title="Регистрация">
+            <form:label path="name"  cssClass="right">Email</form:label>
+            <form:input path="name" required="true" cssClass="input"/>
+            <br>
+            <form:label path="password" cssClass="right">Password</form:label>
+            <form:input path="password" required="true" maxlength="4" minlength="4" type="password" cssClass="input"/>
+            <br>
+            <form:label path="address.street" cssClass="right"> Улица </form:label>
+            <form:input path="address.street" required="true" cssClass="input"/>
+            <br>
+            <form:label path="address.houseNumber" cssClass="right"> Номер дома </form:label>
+            <form:input path="address.houseNumber" required="true" cssClass="input"/>
+<%--            <form:label path="passportData" cssClass="right">Email</form:label>--%>
+<%--            <form:input path="passportData" cssClass="input"/>--%>
+            <br>
+            <br>
+            <input class="input" type="submit" value=" Зарегистрироваться ">
+        </form:form>
     </fieldset>
-
-    <fieldset>
-        <legend>Информация о пользователе</legend>
-        <label>Номер пасспорта<input type="text" required placeholder="Заполните это поле"></label>
-        <fieldset>
-            <legend>Адрес</legend>
-            <label>Улица<input type="text" required placeholder="Заполните это поле"></label>
-            <label>Номер дома<input type="text" required placeholder="Заполните это поле"></label>
-        </fieldset>
-    </fieldset>
-
-</form>
-
+</center>
+<br>
+<center><p>Если вы уже зарегистрированы, то пройдите по ссылке для
+    <a href="${pageContext.request.contextPath}/login-page"> ВХОДА .</a></p></center>
 </body>
 </html>
