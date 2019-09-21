@@ -21,8 +21,8 @@ public class CustomUserServiceImpl  implements CustomUserService {
     private final UserRepository repository;
 
     @Override
-    public UserDetails loadUserByUsername(String login) throws UsernameNotFoundException {
-        User loadedUser = repository.findUserByName(login)
+    public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
+        User loadedUser = repository.findUserByName(name)
                 .orElseThrow(() -> new UsernameNotFoundException("Can't find user by provided name!"));
 
         return new org.springframework.security.core.userdetails.User(loadedUser.getName(), loadedUser.getPassword(),

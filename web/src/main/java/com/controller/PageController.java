@@ -8,22 +8,16 @@ import com.repository.BookRepository;
 import com.repository.RoleRepository;
 import com.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import java.io.OptionalDataException;
-import java.util.Optional;
-
 @Controller
 @RequiredArgsConstructor
 public class PageController {
 
-private final CustomUserService customUserService;
     private final RoleRepository roleRepository;
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;

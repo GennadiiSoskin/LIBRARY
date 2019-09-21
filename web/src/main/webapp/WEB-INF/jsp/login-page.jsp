@@ -23,10 +23,10 @@
             text-align: right;
         }
 
-        .input {
+        input {
             float: right;
             background: burlywood;
-            required: "true";
+
         }
     </style>
 </head>
@@ -37,18 +37,15 @@
     <fieldset class="fieldset">
         <legend>ВХОД</legend>
 
-        <form:form method="POST" modelAttribute="user">
-            <form:label path="name" cssClass="right">Email</form:label>
-            <form:input path="name" required="true" cssClass="input"/>
+        <form action="${pageContext.request.contextPath}/login-page" method="post">
+            <label>Login:</label><input type="text" required name="username">
             <br>
-            <br>
-            <form:label path="password" cssClass="right">Password</form:label>
-            <form:input path="password" required="true" maxlength="4" minlength="4" type="password" cssClass="input"/>
+            <label>Password:</label><input type="text" required minlength="4" maxlength="4" name="password">
             <br>
             <br>
             <br>
-            <input class="input" type="submit" value=" Войти ">
-        </form:form>
+            <input type="submit" value="ВОЙТИ">
+        </form>
     </fieldset>
 </center>
 <br>
