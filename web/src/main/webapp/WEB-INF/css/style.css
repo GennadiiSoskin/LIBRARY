@@ -1,0 +1,25 @@
+@charset "windows-1251";
+
+body {
+    margin: 0;
+    background: #deb887;
+}
+
+label {
+    float: left;
+}
+
+.fieldset {
+    width: 350px;
+}
+
+.right {
+    clear: both;
+    text-align: right;
+}
+
+.input {
+    float: right;
+    background: burlywood;
+
+}

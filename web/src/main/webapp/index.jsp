@@ -6,11 +6,14 @@
     <style type="text/css">
         body {
             margin: 0;
-            background: #deb887 url(../img/book.jpg);
+            background: #deb887 url(WEB-INF/img/book.jpg);
         }
     </style>
 </head>
 <body>
+<audio autoplay>
+    <source src="WEB-INF/img/Sound_06321.mp3" type="audio/mpeg">
+</audio>
 <center><h1>Добро пожаловать!</h1></center>
 <center><p>У нас вы можете забронировать книги и забрать их влюбое удобное для вас время</p></center>
 <center><p>Для продолжения работы вам необходимо

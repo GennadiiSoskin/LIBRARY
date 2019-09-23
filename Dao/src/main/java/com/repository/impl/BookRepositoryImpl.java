@@ -7,6 +7,8 @@ import com.entity.User;
 import com.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.hibernate.SessionFactory;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -19,13 +21,13 @@ public class BookRepositoryImpl implements BookRepository {
     private final SessionFactory sessionFactory;
 
     @Override
-    public List<Book> getAll() {
-        String name = "Маленький принц";
+    public Page<Book> getAll(Pageable pageable) {
+
          List list = sessionFactory.getCurrentSession()
                 .createQuery("from " + Library.class.getSimpleName() , Library.class)
                 .list();
         System.out.print(list.toString());
-         return list;
+         return null;
     }
 //TODO genrerepositoryimpl
 @Override
@@ -45,6 +47,9 @@ public void getAllBookByGenre(long id) {
                 .save(user);
     }
 
+
+
+
     @Override
     public void saveBook(Book book) {
 //    TODO
@@ -58,6 +63,11 @@ public void getAllBookByGenre(long id) {
     @Override
     public void deleteBook(Long id) {
 //    TODO
+    }
+
+    @Override
+    public List<Book> getAll() {
+        return null;
     }
 
 

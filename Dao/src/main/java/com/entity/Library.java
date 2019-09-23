@@ -3,10 +3,7 @@ package com.entity;
 
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import java.util.List;
 
@@ -21,4 +18,8 @@ public class Library extends BaseEntity {
 
     @OneToMany(mappedBy = "library")
     private List<Book> bookList;
+
+    @Embedded
+    private Address address;
+
 }
