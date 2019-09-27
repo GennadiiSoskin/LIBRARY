@@ -2,16 +2,19 @@ package com.api;
 
 
 import com.entity.Book;
-import com.entity.Library;
+import com.entity.User;
 import org.springframework.data.domain.Page;
+
 import java.util.List;
 
+
 public interface BookService {
-    void add(Book book);
 
-    List<Book> show(Library library);
+    void takeBookById(Long id, User user);
 
-    void delete(Long id);
+    void comeBackBookById(Long id);
+
+    List<Book> findByUser (User user);
 
     Page<Book> findByParameters(String name, Long genre, Long library ,int pageIndex, int pageSize);
 }

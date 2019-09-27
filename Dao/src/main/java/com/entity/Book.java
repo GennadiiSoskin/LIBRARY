@@ -11,19 +11,25 @@ import javax.validation.constraints.NotEmpty;
 @Table(name = "book")
 public class Book extends BaseEntity {
 
-    @NotEmpty
+//    @NotEmpty
     @Column
     private String name;
 
-    @NotEmpty
+//    @NotEmpty
     @Column
     private long volume;
 
-    @NotEmpty
+//    @NotEmpty
     @Column
     private long genre;
 
-    @NotEmpty
+//    @NotEmpty
     @Column
     private long library;
+
+    @ManyToOne(fetch = FetchType.EAGER, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
+    @JoinTable(name = "user_book",
+            joinColumns = @JoinColumn(name = "fk_book_id"),
+            inverseJoinColumns = @JoinColumn(name = "fk_user_id"))
+    private User user;
 }

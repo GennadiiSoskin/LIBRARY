@@ -46,40 +46,42 @@
 <center><p>У нас вы можете забронировать книги и забрать их влюбое удобное для вас время</p></center>
 <br>
 <center>
-    <form action="${pageContext.request.contextPath}/book?bookId=${book.id}" method="post">
-        <fieldset class="fieldset">
-            <legend>${book.name}</legend>
-            <table>
-                <tr>
-                    <td>Артикул</td>
-                    <td>${book.id}</td>
-                </tr>
-                <tr>
-                    <td>Название</td>
-                    <td>${book.name}</td>
-                </tr>
-                <tr>
-                    <td>Количество страниц</td>
-                    <td>${book.volume}</td>
-                </tr>
-                <tr>
-                    <td>Жанр</td>
-                    <td>${genre.name}</td>
-                </tr>
-                <tr>
-                    <td>Библиотека</td>
-                    <td> № ${library.name} ${library.address.street} ${library.address.houseNumber}</td>
+    <fieldset class="fieldset">
+        <legend>${user.name}</legend>
+        <table>
+            <tr>
+                <td>Id</td>
+                <td>${user.id}</td>
+            </tr>
+            <tr>
+                <td>Login</td>
+                <td>${user.name}</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>${user.address.street}, ${user.address.houseNumber} </td>
+            </tr>
+            <tr>
+                <div>
+                    <table>
+                        <p>Список книг</p>
+                        <c:forEach items="${bookList}" var="book">
+                            <tr>
+                                <td>${book.id} </td>
+                                <td>${book.name} </td>
+                                <td>
+                                    <a href="${pageContext.request.contextPath}/replace?userName=${user.name}&bookId=${book.id}">Принять</a>
+                                </td>
+                            </tr>
+                        </c:forEach>
+                    </table>
+                </div>
+            </tr>
+<tr>
+    <td><a href="${pageContext.request.contextPath}/users">Вернуться к списку пользователей </a></td>
+</tr>
+        </table>
 
-                </tr>
-            </table>
-            <c:if test="${message!=null}">
-                <input type="submit" value=${message.toString()}>
-            </c:if>
-            <c:if test="${message=null}">
-                <p> Нет в наличии</p>
-            </c:if>
-        </fieldset>
-    </form>
 </center>
 </body>
 </html>

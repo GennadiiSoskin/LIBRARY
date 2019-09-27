@@ -1,9 +1,13 @@
 <html xmlns:form="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>User page</title>
+    <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+    <title>Admin page</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <style type="text/css">
         body {
+
             margin: 0;
             background: #deb887;
         }
@@ -52,48 +56,32 @@
             background: burlywood;
             padding: 10px;
         }
+
+        table {
+            width: 340px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            padding: 3px;
+            border: 1px solid black;
+        }
     </style>
 </head>
 <body>
-<center><h1>Добро пожаловать!</h1></center>
-<center><p>У нас вы можете забронировать книги и забрать их влюбое удобное для вас время</p></center>
-<center>
-    <fieldset class="fieldset">
-        <center><p>Чтобы найти необходимую книгу , воспользуйтесь поиском </p></center>
-        <legend>ПОИСК</legend>
-        <form action="${pageContext.request.contextPath}/users-pagination" method="Get">
+<center><h1>Добро пожаловать ${userName}!</h1>
+    <table>
+        <tr>
+            <td>a href="${pageContext.request.contextPath}/users">Показать всех Пользователей </a></td>
+            <
+        </tr>
+        <tr>
+            <td>a href="${pageContext.request.contextPath}/addbook">Добавить книгу в библиотеку </a></td>
+            <
+        </tr>
+    </table>
 
-            <label>Название</label><input type="text" name="name">
-            <br>
-            <br>
-            <br>
-            <p><label>Количество книг на странице</label><select name="size" datatype="text">
-                <option selected value="5">5</option>
-                <option value="10">10</option>
-                <option value="15">15</option>
-            </select></p>
-            <input type="checkbox" id="box" class="hide"/>
-            <label for="box"> Расширенный поиск </label>
-            <div>
-                <p><label>Жанр</label><select name="genre" datatype="text">
-                    <option selected value="5">История</option>
-                    <option value="3">Для детей</option>
-                    <option value="2">Детектив</option>
-                    <option value="1">Фантастика</option>
-                    <option value="4">Классика</option>
-                </select></p>
-                <p><label>Библиотека</label><select name="library" datatype="text">
-                    <option selected value="1"> № 1</option>
-                    <option value="2"> № 2</option>
-                    <option value="3"> № 3</option>
-                </select></p>
-            </div>
 
-            <br>
-            <br>
-            <input type="submit" value="НАЙТИ">
-        </form>
-    </fieldset>
 </center>
 </body>
 </html>

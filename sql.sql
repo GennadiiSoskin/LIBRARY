@@ -28,20 +28,6 @@ CREATE TABLE `library`
     `street`      VARCHAR(255) NOT NULL,
     `houseNumber` VARCHAR(255) NOT NULL
 );
-
-DROP TABLE IF EXISTS `book`;
-CREATE TABLE `book`
-(
-    `id`         BIGINT       NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `name`       VARCHAR(255) NOT NULL,
-    `volume`     BIGINT,
-    `genre`   BIGINT,
-    `library` BIGINT,
-    CONSTRAINT `fk_book_to_genre` FOREIGN KEY (`genre`) REFERENCES `genre` (`id`),
-    CONSTRAINT `fk_book_to_library` FOREIGN KEY (`library`) REFERENCES `library` (`id`)
-
-);
-
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user`
 (
@@ -51,7 +37,24 @@ CREATE TABLE `user`
     `street`      VARCHAR(255) NOT NULL,
     `houseNumber` VARCHAR(255) NOT NULL,
     `role`        BIGINT,
-    CONSTRAINT `fk_user_to_role` FOREIGN KEY (`role`) REFERENCES `role` (`id`));
+    CONSTRAINT `fk_user_to_role` FOREIGN KEY (`role`) REFERENCES `role` (`id`)
+);
+DROP TABLE IF EXISTS `book`;
+CREATE TABLE `book`
+(
+    `id`      BIGINT       NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `name`    VARCHAR(255) NOT NULL,
+    `volume`  BIGINT,
+    `genre`   BIGINT,
+    `library` BIGINT,
+--     `user`    BIGINT,
+    CONSTRAINT `fk_book_to_genre` FOREIGN KEY (`genre`) REFERENCES `genre` (`id`),
+    CONSTRAINT `fk_book_to_library` FOREIGN KEY (`library`) REFERENCES `library` (`id`)
+--     ,
+--     CONSTRAINT `fk_book_to_user` FOREIGN KEY (`user`) REFERENCES `user` (`id`)
+);
+
+
 
 DROP TABLE IF EXISTS `passport_data`;
 CREATE TABLE `passport_data`
@@ -70,15 +73,15 @@ CREATE TABLE `user_book`
     CONSTRAINT `fk_user_book_to_user` FOREIGN KEY (`fk_user_id`) REFERENCES `user` (`id`),
     CONSTRAINT `fk_user_book_to_book` FOREIGN KEY (`fk_book_id`) REFERENCES `book` (`id`)
 );
-DROP TABLE IF EXISTS `user_request`;
-CREATE TABLE `user_request`
-(
-    `id`         BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `fk_user_id` BIGINT NOT NULL,
-    `fk_book_id` BIGINT NOT NULL,
-    CONSTRAINT `fk_user_request_to_user` FOREIGN KEY (`fk_user_id`) REFERENCES `user` (`id`),
-    CONSTRAINT `fk_user_request_to_book` FOREIGN KEY (`fk_book_id`) REFERENCES `book` (`id`)
-);
+-- DROP TABLE IF EXISTS `user_request`;
+-- CREATE TABLE `user_request`
+-- (
+--     `id`         BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+--     `fk_user_id` BIGINT NOT NULL,
+--     `fk_book_id` BIGINT NOT NULL,
+--     CONSTRAINT `fk_user_request_to_user` FOREIGN KEY (`fk_user_id`) REFERENCES `user` (`id`),
+--     CONSTRAINT `fk_user_request_to_book` FOREIGN KEY (`fk_book_id`) REFERENCES `book` (`id`)
+-- );
 
 -- test data --
 INSERT INTO genre (id, name)
@@ -104,8 +107,13 @@ VALUES (2, '2', 'Партизанский', '12');
 INSERT INTO library (id, name, street, houseNumber)
 VALUES (3, '3', 'Тимирязева', '45');
 
-INSERT INTO book (id, name, volume, genre, library)
-VALUES (1, 'Мастер и Маргарита', 200, 4, 1);
+INSERT INTO user (id, name, password, street, houseNumber, role)
+VALUES (1, 'Геннадий', '1234', 'Юбилейная', 12, 2);
+INSERT INTO user (id, name, password, street, houseNumber, role)
+VALUES (2, 'Ольга', '1234', 'Юбилейная', 12, 1);
+
+INSERT INTO book (id, name, volume, genre, library, user)
+VALUES (1, 'Мастер и Маргарита', 200, 4, 1, 1);
 INSERT INTO book (id, name, volume, genre, library)
 VALUES (2, 'Евгений Онегин', 160, 4, 1);
 INSERT INTO book (id, name, volume, genre, library)
@@ -130,12 +138,51 @@ INSERT INTO book (id, name, volume, genre, library)
 VALUES (12, 'Мастер и Маргарита', 200, 4, 2);
 INSERT INTO book (id, name, volume, genre, library)
 VALUES (13, 'Мастер и Маргарита', 200, 4, 3);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Колобок', 10, 4, 3);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Сонеты', 105, 4, 3);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Отелло', 120, 1, 3);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Король лир', 210, 2, 3);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Гамлет', 110, 3, 3);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Анна Каренина', 108, 5, 3);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Потерянный Рай', 40, 3, 2);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Госпожа Бовари', 230, 2, 2);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'убить пересменьщика', 210, 4, 2);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Библия', 10, 4, 2);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Хроники Нарнии', 310, 1, 2);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Вини Пух', 210, 5, 1);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Государь', 420, 2, 1);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Капитал', 410, 3, 1);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Сто лет одиночества', 530, 1, 1);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Над пропастью во ржи', 230, 2, 1);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Лолита', 610, 5, 2);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Ветер в ивах', 231, 4, 1);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Безмолвная весна', 10, 3, 1);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Красная книга', 710, 1, 1);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Смерть', 10, 4, 1);
+INSERT INTO book ( name, volume, genre, library)
+VALUES ( 'Начало', 10, 2, 2);
 
-
-INSERT INTO user (id, name, password, street, houseNumber, role)
-VALUES (1, 'Геннадий', '1234', 'Юбилейная', 12, 2);
-INSERT INTO user (id, name, password, street, houseNumber, role)
-VALUES (2, 'Ольга', '1234', 'Юбилейная', 12, 1);
 
 INSERT INTO user_book (id, fk_user_id, fk_book_id)
 VALUES (1, 1, 4);

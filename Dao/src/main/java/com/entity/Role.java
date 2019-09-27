@@ -12,8 +12,8 @@ import javax.persistence.Table;
 @Data
 @Entity
 @Table(name = "role")
-@Cacheable
-@Cache(usage = CacheConcurrencyStrategy.READ_ONLY, region = "my-cache")
+//@Cacheable
+//@Cache(usage = CacheConcurrencyStrategy.READ_ONLY, region = "my-cache")
 public class Role extends BaseEntity {
 
     @Column

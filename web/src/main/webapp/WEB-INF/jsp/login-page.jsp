@@ -36,9 +36,9 @@
 <center>
     <fieldset class="fieldset">
         <legend>ВХОД</legend>
-
+        <p>${mistake}</p>
         <form action="${pageContext.request.contextPath}/login-page" method="post">
-            <label>Login:</label><input type="text" required name="username">
+            <label>Login:</label><input type="text" required name="userName">
             <br>
             <label>Password:</label><input type="text" required minlength="4" maxlength="4" name="password">
             <br>

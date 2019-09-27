@@ -7,6 +7,7 @@
     <title>User page</title>
     <style type="text/css">
         body {
+
             margin: 0;
             background: #deb887;
         }
@@ -55,16 +56,27 @@
             background: burlywood;
             padding: 10px;
         }
+
+        table {
+            width: 340px; /* Ширина таблицы */
+            border-collapse: collapse; /* Убираем двойные линии между ячейками */
+        }
+
+        td, th {
+            padding: 3px; /* Поля вокруг содержимого таблицы */
+            border: 1px solid black; /* Параметры рамки */
+        }
     </style>
 </head>
 <body>
+<p class="right">Пользователь: ${userName}</p>
 <center><h1>Добро пожаловать!</h1></center>
 <center><p>У нас вы можете забронировать книги и забрать их влюбое удобное для вас время</p></center>
 <center>
     <fieldset class="fieldset">
         <center><p>Чтобы найти необходимую книгу , воспользуйтесь поиском </p></center>
         <legend>ПОИСК</legend>
-        <form action="${pageContext.request.contextPath}/users-pagination" method="Get">
+        <form action="${pageContext.request.contextPath}/books" method="Get">
 
             <label>Название</label><input type="text" name="name">
             <br>
@@ -75,30 +87,25 @@
                 <option value="10">10</option>
                 <option value="15">15</option>
             </select></p>
-            <input type="checkbox" id="box" class="hide"/>
-            <label for="box"> Расширенный поиск </label>
-            <div>
-                <p><label>Жанр</label><select name="genre" >
-                    <option selected value="">--</option>
-                    <option value="5">История</option>
-                    <option value="3">Для детей</option>
-                    <option value="2">Детектив</option>
-                    <option value="1">Фантастика</option>
-                    <option value="4">Классика</option>
-                </select></p>
-                <p><label>Библиотека</label><select name="library">
-                    <option selected value="">--</option>
-                    <option value="1"> № 1</option>
-                    <option value="2"> № 2</option>
-                    <option value="3"> № 3</option>
-                </select></p>
-            </div>
-
             <br>
             <br>
             <input type="submit" value="НАЙТИ">
         </form>
+        <input type="checkbox" id="box" class="hide"/>
+        <label for="box"> Мои книги </label>
+        <div>
+            <table>
+                <c:forEach items="${bookList}" var="book">
+                    <tr>
+                        <td>${book.id}</td>
+                        <td>${book.name}</td>
+                    </tr>
+                </c:forEach>
+            </table>
+        </div>
     </fieldset>
+
+
 </center>
 </body>
 </html>

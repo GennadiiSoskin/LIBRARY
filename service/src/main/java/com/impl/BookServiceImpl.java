@@ -3,6 +3,7 @@ package com.impl;
 import com.api.BookService;
 import com.entity.Book;
 import com.entity.Library;
+import com.entity.User;
 import com.repository.BookJpaRepository;
 import com.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
@@ -25,13 +26,28 @@ public class BookServiceImpl implements BookService {
 
     }
 
+
     @Override
-    public List<Book> show(Library library) {
-        return repository.getAll();
+    public void takeBookById(Long id, User user) {
+        Book book = jpaRepository.findById(id).get();
+        book.setUser(user);
+                repository.update(book);
     }
 
-    public void delete(Long id) {
+    @Override
+    public void comeBackBookById(Long id) {
+        System.out.println("EUEUEUEUEU");
+        Book book = jpaRepository.findById(id).get();
+        System.out.println(book);
+        book.setUser(null);
+        System.out.println(book);
+        repository.update(book);
+    }
 
+    @Override
+    public List<Book> findByUser(User user) {
+        System.out.println(jpaRepository.findAllByUser(user).toString());
+        return jpaRepository.findAllByUser(user);
     }
 
     @Override
@@ -41,17 +57,7 @@ public class BookServiceImpl implements BookService {
         if (name != null) {
             books = jpaRepository.findAllByNameContaining(name, PageRequest.of(pageIndex, pageSize));
         } else {
-//            if (library != null) {
-//                if (genre != null) {
-//                    books = jpaRepository.findAllByGenreAndLibrary(genre, library, PageRequest.of(pageIndex, pageSize));
-//                } else {
-//                    books = jpaRepository.findAllByLibrary(library, PageRequest.of(pageIndex, pageSize));
-//                }return books;
-//            } else {
-//                if (genre != null) {
-//                    books = jpaRepository.findAllByGenre(genre, PageRequest.of(pageIndex, pageSize));
-//                    return books;
-//                }
+//
                 books = jpaRepository.findAll(PageRequest.of(pageIndex, pageSize));
 
             }

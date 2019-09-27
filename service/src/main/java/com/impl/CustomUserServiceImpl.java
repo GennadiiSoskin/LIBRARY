@@ -3,11 +3,10 @@ package com.impl;
 
 import com.api.CustomUserService;
 import com.entity.User;
-import com.repository.UserRepository;
+import com.repository.UserJpaRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,7 +17,7 @@ import java.util.Collections;
 @Transactional
 @RequiredArgsConstructor
 public class CustomUserServiceImpl  implements CustomUserService {
-    private final UserRepository repository;
+    private final UserJpaRepository repository;
 
     @Override
     public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
