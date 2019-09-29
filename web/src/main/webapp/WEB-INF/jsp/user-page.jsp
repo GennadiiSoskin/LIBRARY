@@ -2,12 +2,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-
-    <%--    <link href="../css/style.css" rel="stylesheet">--%>
     <title>User page</title>
     <style type="text/css">
         body {
-
             margin: 0;
             background: #deb887;
         }
@@ -45,7 +42,6 @@
             display: inline-block;
         }
 
-
         .hide:checked + label {
             color: black;
             border-bottom: 0;
@@ -58,18 +54,19 @@
         }
 
         table {
-            width: 340px; /* Ширина таблицы */
-            border-collapse: collapse; /* Убираем двойные линии между ячейками */
+            width: 340px;
+            border-collapse: collapse;
         }
 
         td, th {
-            padding: 3px; /* Поля вокруг содержимого таблицы */
-            border: 1px solid black; /* Параметры рамки */
+            padding: 3px;
+            border: 1px solid black;
         }
     </style>
 </head>
 <body>
 <p class="right">Пользователь: ${userName}</p>
+<p class="right"><a href="${pageContext.request.contextPath}/login-page"> Выйти </a></p>
 <center><h1>Добро пожаловать!</h1></center>
 <center><p>У нас вы можете забронировать книги и забрать их влюбое удобное для вас время</p></center>
 <center>
@@ -77,17 +74,13 @@
         <center><p>Чтобы найти необходимую книгу , воспользуйтесь поиском </p></center>
         <legend>ПОИСК</legend>
         <form action="${pageContext.request.contextPath}/books" method="Get">
-
             <label>Название</label><input type="text" name="name">
-            <br>
-            <br>
             <br>
             <p><label>Количество книг на странице</label><select name="size" datatype="text">
                 <option selected value="5">5</option>
                 <option value="10">10</option>
                 <option value="15">15</option>
             </select></p>
-            <br>
             <br>
             <input type="submit" value="НАЙТИ">
         </form>
@@ -104,8 +97,6 @@
             </table>
         </div>
     </fieldset>
-
-
 </center>
 </body>
 </html>

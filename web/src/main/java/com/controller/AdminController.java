@@ -42,7 +42,7 @@ public class AdminController {
         int totalPagesCount = all.getTotalPages();
         model.addAttribute("users", all.getContent());
         model.addAttribute("totalPagesCount", totalPagesCount);
-
+        model.addAttribute("userName", ((User)session.getAttribute("loginedUser")).getName());
         return "users";
     }
 
@@ -54,6 +54,7 @@ public class AdminController {
 
         model.addAttribute("user", optionalUser.get());
         model.addAttribute("bookList", bookService.findByUser(optionalUser.get()));
+        model.addAttribute("userName", ((User)session.getAttribute("loginedUser")).getName());
         return "user";
     }
 

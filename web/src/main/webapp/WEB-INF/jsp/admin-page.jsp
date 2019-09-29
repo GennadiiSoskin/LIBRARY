@@ -1,5 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <html>
 <head>
     <title>Admin page</title>
@@ -15,10 +14,6 @@
             float: left;
         }
 
-        .fieldset {
-            width: 400px;
-        }
-
         .right {
             clear: both;
             text-align: right;
@@ -27,10 +22,6 @@
         input {
             float: right;
             background: burlywood;
-        }
-
-        .hide {
-            display: none;
         }
 
         .hide + label ~ div {
@@ -43,7 +34,6 @@
             cursor: pointer;
             display: inline-block;
         }
-
 
         .hide:checked + label {
             color: black;
@@ -58,19 +48,21 @@
     </style>
 </head>
 <body>
+<p class="right">Пользователь: ${userName}</p>
+<p class="right"><a href="${pageContext.request.contextPath}/login-page"> Выйти </a></p>
 <center><h1>Добро пожаловать ${userName}!</h1>
     <table>
         <tr>
             <td><a href="${pageContext.request.contextPath}/users">Показать всех Пользователей </a></td>
-
         </tr>
         <tr>
-            <td><a href="${pageContext.request.contextPath}/addbook">Добавить книгу в библиотеку </a></td>
-
+            <td><a href="${pageContext.request.contextPath}/user-page"> Взять книгу </a></td>
         </tr>
+        <tr>
+            <td><a href="${pageContext.request.contextPath}/login-page"> Выйти </a></td>
+        </tr>
+
     </table>
-
-
 </center>
 </body>
 </html>

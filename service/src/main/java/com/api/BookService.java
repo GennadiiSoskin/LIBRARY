@@ -18,7 +18,7 @@ public interface BookService {
 
     List<Book> findByUser (User user);
 
-    Page<Book> findByParameters(String name, Long genre, Long library ,int pageIndex, int pageSize);
+    Page<Book> findByParameters(String name, int pageIndex, int pageSize);
 
     Optional<Book> findById(Long id);
 

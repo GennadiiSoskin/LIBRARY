@@ -48,18 +48,13 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public Page<Book> findByParameters(String name, Long genre, Long library, int pageIndex, int pageSize) {
+    public Page<Book> findByParameters(String name, int pageIndex, int pageSize) {
         Page<Book> books;
-
         if (name != null) {
             books = jpaRepository.findAllByNameContaining(name, PageRequest.of(pageIndex, pageSize));
         } else {
-//
             books = jpaRepository.findAll(PageRequest.of(pageIndex, pageSize));
-
         }
-
-
         return books;
     }
 
@@ -80,9 +75,10 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public String bookState(Long id) {
-         if (findById(id).isPresent()){
-             return "Заказать";
-         }
-         else return null;
+        Book book = findById(id).orElse(new Book());
+        if (book.getUser() == null) {
+            return "Заказать";
+        }
+        return null;
     }
 }

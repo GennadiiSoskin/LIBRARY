@@ -1,11 +1,3 @@
-<j
-<%--
-  Created by IntelliJ IDEA.
-  User: mnazarenka
-  Date: 2019-09-02
-  Time: 19:04
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
@@ -41,10 +33,16 @@
             border: 1px solid black; /* Параметры рамки */
         }
 
+        .right {
+            clear: both;
+            text-align: right;
+        }
     </style>
 </head>
 <body>
-<center><h1>Добро пожаловать!</h1></center>
+<p class="right">Пользователь: ${userName}</p>
+<p class="right"><a href="${pageContext.request.contextPath}/admin-page"> Личный кабинет </a></p>
+<p class="right"><a href="${pageContext.request.contextPath}/login-page"> Выйти </a></p>
 <br>
 <center>
     <fieldset class="fieldset">

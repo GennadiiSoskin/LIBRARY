@@ -2,8 +2,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-
-    <%--    <link href="../css/style.css" rel="stylesheet">--%>
     <title>User page</title>
     <style type="text/css">
         body {
@@ -42,8 +40,9 @@
     </style>
 </head>
 <body>
-<center><h1>Добро пожаловать!</h1></center>
-<center><p>У нас вы можете забронировать книги и забрать их влюбое удобное для вас время</p></center>
+<p class="right">Пользователь: ${userName}</p>
+<p class="right"><a href="${pageContext.request.contextPath}/admin-page"> Личный кабинет </a></p>
+<p class="right"><a href="${pageContext.request.contextPath}/login-page"> Выйти </a></p>
 <br>
 <center>
     <fieldset class="fieldset">

@@ -12,6 +12,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 
@@ -36,38 +38,52 @@ public class UserController {
     @GetMapping("/books")
     //TODO check passwords
     public String seek(@RequestParam(value = "page", required = false, defaultValue = "0") int pageIndex,
-                       @RequestParam("size") int pageSize,
+                       @RequestParam(value = "size") int pageSize,
                        @RequestParam(value = "name", required = false) String name,
-                       @RequestParam(value = "genre", required = false) Long genre,
-                       @RequestParam(value = "library", required = false) Long library,
                        Model model) {
-        Page<Book> all = bookService.findByParameters(name, genre, library, pageIndex, pageSize);
+
+        Page<Book> all = bookService.findByParameters(name, pageIndex, pageSize);
         int totalPagesCount = all.getTotalPages();
+        session.setAttribute("books", all.getContent());
+        session.setAttribute("totalPagesCount", totalPagesCount);
+        session.setAttribute("itemsPerPage", pageSize);
+        session.setAttribute("name", name);
+        session.setAttribute("userName", ((User) session.getAttribute("loginedUser")).getName());
+        session.setAttribute("page", pageIndex);
         model.addAttribute("books", all.getContent());
         model.addAttribute("totalPagesCount", totalPagesCount);
         model.addAttribute("itemsPerPage", pageSize);
-        model.addAttribute("genre", genre);
-        model.addAttribute("library", library);
         model.addAttribute("name", name);
-        return "books";
+        model.addAttribute("userName", ((User) session.getAttribute("loginedUser")).getName());
+                return "books";
     }
 
 
     @GetMapping("/book")
 
-    public String seek(@RequestParam(value = "bookId") Long bookId, Model model) {
-
+    public String findBook(@RequestParam(value = "bookId") Long bookId,
+                           HttpServletRequest request,
+                           Model model) {
         model.addAttribute("book", bookService.findById(bookId).orElse(new Book()));
         model.addAttribute("genre", bookService.findGenreByBookId(bookId).orElse(new Genre()));
         model.addAttribute("library", bookService.findLibraryByBookId(bookId).orElse(new Library()));
         model.addAttribute("message", bookService.bookState(bookId));
+        model.addAttribute("userName", ((User) session.getAttribute("loginedUser")).getName());
         return "book";
     }
 
     @PostMapping("/book")
-    public String takeBook(Long bookId, Model model) {
+    public String takeBook(@RequestParam(value = "bookId") Long bookId,
+                           Model model) {
         User user = (User) session.getAttribute("loginedUser");
         bookService.takeBookById(bookId, user);
-        return "redirect:" + user.getRole().getName() + "-page";
+        model.addAttribute("books", session.getAttribute("books"));
+        model.addAttribute("totalPagesCount", session.getAttribute("totalPagesCount"));
+        model.addAttribute("itemsPerPage", session.getAttribute("itemsPerPage"));
+        model.addAttribute("name", session.getAttribute("name"));
+        model.addAttribute("userName", ((User) session.getAttribute("loginedUser")).getName());
+        model.addAttribute("page", session.getAttribute("page"));
+        return "books";
+
     }
 }
