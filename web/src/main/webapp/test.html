@@ -1,26 +1,23 @@
 
 <html xmlns:form="http://www.w3.org/1999/xhtml">
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <head>
     <meta charset="UTF-8">
-
-
+    <%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+    <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+    <%@ page isELIgnored="false" %>
+    <html>
+    <head>
         <title>Hello page</title>
         <style type="text/css">
             body {
                 margin: 0;
-                background: #deb887 url(WEB-INF/img/book.jpg);
+                background: #deb887 url(/img/book.jpg);
             }
         </style>
     </head>
 <body>
-<audio autoplay>
-    <source src="WEB-INF/img/Sound_06321.mp3" type="audio">
-</audio>
 <center><h1> <fmt:message key="label.welcome" /></h1></center>
 <center><p>У нас вы можете забронировать книги и забрать их влюбое удобное для вас время</p></center>
 <center><p>Для продолжения работы вам необходимо
