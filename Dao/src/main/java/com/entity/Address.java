@@ -11,9 +11,9 @@ import javax.validation.constraints.NotEmpty;
 @Data
 public class Address {
     @Column
-    @NotEmpty
+//    @NotEmpty
     private String street;
     @Column
-    @NotEmpty
+//    @NotEmpty
     private String houseNumber;
 }

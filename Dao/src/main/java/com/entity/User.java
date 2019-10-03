@@ -2,16 +2,19 @@ package com.entity;
 
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
-import java.util.Set;
 
 
+@EqualsAndHashCode(callSuper = true)
 @Data
 @Entity
 @Table(name = "user")
 
 public class User extends BaseEntity {
+
 
     @NotEmpty
     @Column
@@ -27,10 +30,5 @@ public class User extends BaseEntity {
     @ManyToOne
     @JoinColumn(name = "role")
     private Role role;
-
-//    @OneToMany(fetch = FetchType.EAGER, mappedBy = "user")
-//       private Set<Book> bookList;
-
-
 
 }

@@ -8,6 +8,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Optional;
 
 
 @Repository
@@ -19,6 +20,16 @@ public class BookRepositoryImpl implements BookRepository {
     @Override
     public void save(Book book) {
         sessionFactory.getCurrentSession().save(book);
+    }
+
+    @Override
+    public Optional<Book> getBook(String name) {
+        return sessionFactory.getCurrentSession()
+                .createQuery("select e from " + Book.class.getSimpleName() + " e where e.name = :name", Book.class)
+                .setParameter("name", name)
+                .getResultList()
+                .stream()
+                .findFirst();
     }
 
     @Override
